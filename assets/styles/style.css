@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+img{
+    width: 100%
+    
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+
+    position: fixed;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+
+    background-color: rgb(84, 13, 13);
+    border-bottom: 2px solid rgb(111, 7, 7);
+    
+
+}
+
+a, p, span{
+    text-decoration: none;
+    color: white;
+
+}
+
+hr{
+    margin: 0 0 55px 0;
+
+}
+
+.main{
+    display: grid;
+    width: 100%;
+    height: 80dvh;
+    column-gap: 20px;
+    
+
+    background-color: rgba(0, 0, 190, 0.527);
+
+    grid-template-columns: repeat(2, 1fr);
+    p{
+font-size: 20px;
+white-space: 15px;
+    }
+
+}
+
+.main_img{
+    height: 755px;
+    object-fit: cover;
+
+}
+
+.hero{
+    background-color: rgb(187, 23, 23);
+    
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding: 50px 10px ;
+
+    img{
+        width: 100%;
+    }
+
+    .card{
+        padding: 20px;
+        border: 2px solid rgb(130, 28, 28);
+        background-color: rgb(9, 20, 171);
+
+        a{
+            font-size: 20px;
+        }
+
+        img{
+            height: 555px;
+            width:570px;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+            margin: 0 auto;
+
+        }
+
+        span{
+            font-size: 35px;
+            display: block;
+
+        }
+
+    }
+
+}
+
